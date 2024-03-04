@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f5f5f5;
+   
+}
+.containerPosicion{
+    margin: 90px;
+    background: #f5f5f5;
+    border-top: 26px solid #376c8f;
+    border-bottom: 26px solid #376c8f;
+}
+.simply-amount{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Comic Sans', sans-serif;
+}
+
+.simply-word{
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.elemento-contador {
+
+    background: #f5f5f5;
+    box-shadow: 10px 13px 5px -4px rgba(186,171,186,0.71);
+    border: 1px solid #141414; /* Borde alrededor de cada elemento del contador */
+    padding: 10px; /* Espaciado interno para separar el contenido del borde */
+    margin: 20px; /* Margen entre los elementos */
+    border-radius: 30px; /* Bordes redondeados */
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerPosicion .florkContenedor{
+    padding-top: 30px;
+    margin: 50px;
+    width: 195px; /* Ancho del contenedor */
+    height: 190px; /* Altura del contenedor */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Recorta la imagen para que se ajuste al círculo */
+    border: 2px solid #ccc; /* Añade un borde opcional */
+}
+
+  #flork{
+    width: auto; /* Para asegurarse de que la imagen ocupe todo el contenedor circular */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+#florkMensaje{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Comic-Sans',sans-serif;
+}
+
